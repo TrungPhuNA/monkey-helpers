@@ -1,0 +1,22 @@
+{
+    "name": "monkey/helpers",
+    "description": "build function helpers",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Monkey\\Helpers\\": "src/"
+        },
+        "files": [
+            "src/function.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "phudev",
+            "email": "codethue94@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
